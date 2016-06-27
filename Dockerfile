@@ -1,4 +1,4 @@
-FROM crystalsource/crystal-webdev-server1404
+FROM crystalsource/crystal-webdev-php56
 MAINTAINER Mike Bertram <contact@crystalsource.de>
 
 # Non interactive
