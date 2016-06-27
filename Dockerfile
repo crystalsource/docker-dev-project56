@@ -15,7 +15,7 @@ ADD sql /var/www/sqldump
 ADD .docker/scripts /opt/docker/project
 
 # Set permissions
-RUN chmod -Rf www-data:www-data /var/www/project
+RUN chown -Rf www-data:www-data /var/www/project
 
 # Create symlink
 RUN ln -s /var/www/project /var/www/html
